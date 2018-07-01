@@ -11,8 +11,15 @@ RadioButton
 RelativeLayout
 CheckBox
 Button
-
 scores are shown with Toast
+
+# Installation
+1.Install nodejs and postgresql if not installed.
+2.Navigate to the directory you want it installed to. cd your folder
+3.Clone the repository https://github.com/AnayoOleru/AnimQuizApp/edit/master/README.md
+
+
 ##### Developer
 Anayo Oleru
 Anayo_oleru@outlook.com
+###### Android Basics 7Days Challenge
