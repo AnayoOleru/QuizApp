@@ -13,6 +13,6 @@ CheckBox
 Button
 
 scores are shown with Toast
-#Developer
+##### Developer
 Anayo Oleru
 Anayo_oleru@outlook.com
