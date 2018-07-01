@@ -5,15 +5,16 @@
 ### About QuizApp
 AnimQuizApp, also known as QuizApp, is an Educational app that quizzes a user about animals. 
 Written in java and XML.
-##Question Types
+## Question Types
+Animal Quizzes
 Questions are in a variety of formats such as checkboxes and radio buttons.
 Text sizes are defined in sp
 Lenghts are defined in dp
 
-##View Variety
+## View Variety
 TextViews, Button, CheckBox, RelativeLayout, ScrollView, RadioButton, RadioGroup.
 
-##Functionality
+## Functionality
 The app gracefully handles displaying all the content on screen when rotated.
 Each questions has a correct answer.
 Grading Button function displays a toast which accurately displays the results of the quiz.
