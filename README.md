@@ -4,8 +4,8 @@
 
 ### About QuizApp
 AnimQuizApp, also known as QuizApp, is an Educational app that quizzes a user about animals. 
-Questions are from 1 to 5:
 Written in java and XML:
+Questions are numbered from 1 to 6:
 RadioGroup
 RadioButton
 RelativeLayout
