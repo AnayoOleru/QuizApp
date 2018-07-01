@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name= "question1">1. A \'Doe\' is what kind of animal? </string>
+    <string name= "answerA">female Deer</string>
+    <string name= "answerB">female Antelope</string>
+    <string name= "answerC">male Deer</string>
+
+    <string name="question2">2. What is the largest land animal in the world?</string>
+    <string name="answerD">Tiger</string>
+    <string name="answerE">Whale</string>
+    <string name="answerF">Elephant</string>
+
+    <string name="question3">3. Which of these animals live in water?</string>
+    <string name="answerG">Dolphin</string>
+    <string name="answerH">Tilapia</string>
+    <string name="answerI">Goat</string>
+
+    <string name="question4">4. Which of these animals had been driven to extinction?</string>
+    <string name="answerJ">Quagga</string>
+    <string name="answerK">Mammoth</string>
+    <string name="answerL">Dog</string>
+
+    <string name="question5">5. What are female Elephants called?</string>
+    <string name="answerM">Cows</string>
+    <string name="answerN">Bulls</string>
+    <string name="answerO">Ducks</string>
+
+    <string name="question6">6. What is the fastest land animal?</string>
+    <string name="answerP">Dog</string>
+    <string name="answerQ">Wolf</string>
+    <string name="answerR">Cheetah</string>
+
+    <string name="CheckScore">Check Score</string>
+
+</resources>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+<!--question one-->
+    <TextView
+        android:id="@+id/firstQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff9f9"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=  "@string/question1" />
+
+<RadioGroup
+    android:id="@+id/questions1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/firstQuestion">
+
+    <RadioButton
+            android:id="@+id/question1A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answerA"
+            android:textColor="#8c4c15"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <RadioButton
+            android:id="@+id/question1B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answerB"
+            android:textColor="#8c4c15"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <RadioButton
+        android:id="@+id/question1C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answerC"
+        android:textColor="#8c4c15"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RadioGroup>
+
+<!--question2-->
+    <TextView
+        android:id="@+id/secondQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questions1"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff9f9"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=  "@string/question2" />
+<RadioGroup
+    android:id="@+id/questions2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/secondQuestion">
+    <RadioButton
+        android:id="@+id/question2D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answerD"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <RadioButton
+        android:id="@+id/question2E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answerE"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <RadioButton
+        android:id="@+id/question2F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answerF"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+</RadioGroup>
+
+    <!--question3-->
+    <TextView
+        android:id="@+id/thirdQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/questions2"
+        android:textColor="#fff9f9"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=  "@string/question3" />
+
+    <CheckBox
+        android:id="@+id/question3G"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thirdQuestion"
+        android:text="@string/answerG"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <CheckBox
+        android:id="@+id/question3H"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question3G"
+        android:text="@string/answerH"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <CheckBox
+        android:id="@+id/question3I"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question3H"
+        android:text="@string/answerI"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <!--question4-->
+    <TextView
+        android:id="@+id/fourthQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question3I"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff9f9"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=  "@string/question4" />
+
+    <CheckBox
+        android:id="@+id/question4J"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourthQuestion"
+        android:text="@string/answerJ"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <CheckBox
+        android:id="@+id/question4K"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question4J"
+        android:text="@string/answerK"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <CheckBox
+        android:id="@+id/question4L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question4K"
+        android:text="@string/answerL"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/fifthQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question4L"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff9f9"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=  "@string/question5" />
+
+    <!--question5-->
+
+    <RadioGroup
+        android:id="@+id/questions5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fifthQuestion">
+        <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question5M"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp"
+            android:text="@string/answerM"/>
+        <RadioButton
+            android:id="@+id/question5N"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/answerN"
+            android:textColor="#8c4c15"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:id="@+id/question5O"
+        android:text="@string/answerO"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    </RadioGroup>
+
+    <!--question6-->
+    <TextView
+        android:id="@+id/sixthQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questions5"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff9f9"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=  "@string/question6" />
+    <RadioGroup
+        android:id="@+id/questions6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sixthQuestion">
+    <RadioButton
+        android:id="@+id/question6P"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answerP"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <RadioButton
+        android:id="@+id/question6Q"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answerQ"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <RadioButton
+        android:id="@+id/question6R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/answerR"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    </RadioGroup>
+
+    <!--submit button-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitBtn"
+        android:layout_below="@+id/questions6"
+        android:text="@string/CheckScore"
+        android:textColor="#8c4c15"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:onClick="btnClick"/>
+
+</RelativeLayout>
+</ScrollView>
