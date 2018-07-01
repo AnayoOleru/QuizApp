@@ -1,5 +1,5 @@
 # AnimQuizApp
-This is the link to my QuizApp:
+
 **https://drive.google.com/drive/folders/17nxnm5BVGp6FfDifPNJwDG4Wvu_gdNg8?ogsrc=32**
 
 ### About QuizApp
@@ -23,3 +23,4 @@ scores are shown with Toast
 Anayo Oleru
 Anayo_oleru@outlook.com
 ###### Android Basics 7Days Challenge
+###### Google Udacity Andela
